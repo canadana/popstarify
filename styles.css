@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f08ac2; /* Hot pink background */
-    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern sans-serif font */
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333; /* Dark gray text */
 }
 
 .container {
@@ -17,13 +17,14 @@ body {
 }
 
 header {
-    background-color: #ff1493; /* Deep pink */
+    background-color: #e75480; /* Darker pink */
     padding: 1rem 0;
 }
 
 header h1 {
     text-align: center;
     margin-bottom: 0.5rem;
+    color: #fff; /* White text */
 }
 
 nav ul {
@@ -37,7 +38,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #fff; /* White text */
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
@@ -60,10 +61,11 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #ff1493; /* Deep pink */
+    background-color: #e75480; /* Darker pink */
     text-align: center;
     padding: 1rem 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+    color: #fff; /* White text */
 }
